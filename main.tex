@@ -1,0 +1,228 @@
+\documentclass[10pt, letterpaper]{article}
+
+\input{preamble/packages.tex}
+\input{preamble/settings.tex}
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Bruno Jardim
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{Braga, Portugal}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:brunofjm@gmail.com}{brunofjm@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+351910871693}{+351910871693}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/brunojardim13}{linkedin.com/in/brunojardim13}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/StrillX}{github.com/StrillX}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+    \section{Education}
+
+
+
+        
+        \begin{twocolentry}{
+            Sept 2019 – July 2022
+        }
+            \textbf{Universidade do Minho}, BS in Computer Science\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Coursework:} Computational Theory, Complexity Theory, Algorithms and Data structures, Algorithm Correction, SAT solving
+                \item \textbf{Final Project:} A generic tool for verifying safety properties in a First Order Transition Systems
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2cm}
+
+        \begin{twocolentry}{
+            Sept 2022 – Oct 2024 (est.)
+        }
+            \textbf{Universidade do Minho}, MS in Formal Methods and Cryptography\end{twocolentry}
+        Informatics Engineering (Master)
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Coursework (Formal Methods):} Algorithm and Program Verification, Distributed Algorithms Verification, Cyber-Physical Programming, Program Design By Calculation
+                \item \textbf{Coursework (Cryptography):} Cryptographic Structures, Post-Quantum Cryptography, Vulnerability Detection/Exploitation, Linux Security, Security Engineering
+                \item \textbf{Dissertation:} Analyzing quantum learning protocols with ZX
+                
+                %\small ZX-calculus and variants (ZH,ZW,ZXW,...), Quantum Machine Learning, Quantum Walks, Measurement Based Quantum Computing
+                
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Experience}
+
+
+
+        
+        \begin{twocolentry}{
+            July 2022 – Sept 2022
+        }
+            \textbf{Data Analyst}, Checkmarx -- Braga, PT\end{twocolentry}
+        Summer Internship
+        \vspace{0.10 cm}
+        
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            June 2023 – Dec 2023
+        }
+            \textbf{Full-stack Developer}, Micro-net -- Braga, PT\end{twocolentry}
+        Part-time
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed a hotel self check-in solution
+                \item Ported a billing/management desktop application to a web application 
+            \end{highlights}
+        \end{onecolentry}
+
+    
+    \section{Publications}
+
+
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                Jan 2024
+            }
+                \textbf{I/O Behaviour Analysis on Android Targeted Ransomware}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{Beatriz Oliveira}, \mbox{\textbf{\textit{Bruno Jardim}}}, \mbox{Bruno Pereira}
+
+                \vspace{0.10 cm}
+            Unpublished
+        \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                June 2024
+            }
+                \textbf{Revisiting staggered quantum walks with ZX}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{\textit{Bruno Jardim}}}, \mbox{Jaime Santos}, \mbox{Luís S. Barbosa}
+
+                \vspace{0.10 cm}
+            Submitted to SEFM'24
+        \end{onecolentry}
+        \end{samepage}
+
+
+    
+    \section{Projects}
+
+
+
+        
+        \begin{twocolentry}{
+            \href{https://github.com/Alef-Keuffer/FOTS-Prover}{github.com/Alef-Keuffer/FOTS-Prover}
+        }
+            \textbf{A generic tool for verifying safety properties in a First Order Transition Systems}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Implemented 4 different property verification techniques, those being: Bounded Model Checking, K-induction, Interpolant Model Checking and Property Directed Reachability. These techniques can be then used to verify safety properties on First Order Transition Systems
+                \item Tools Used: Python, PySMT
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            \href{https://github.com/StrillX/EC}{github.com/StrillX/EC}
+        }
+            \textbf{Cryptographic Structures}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Diverse implementations of different cryptographic protocols, both pre and post quatum.
+                \item Tools Used: Python, Sagemath
+            \end{highlights}
+        \end{onecolentry}
+
+
+    
+    \section{Additional Experience And Awards}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{Mentor at Coderdojo (2022-2023):} Taught children between the ages of 7 and 17 how to program.
+        \end{onecolentry}
+    
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Organizer of JOIN22 \& JOIN23:} An event with pertinent topics in the current landscape of CS and Software Engineering, sponsored by a diverse set of companies in those respective fields.
+        \end{onecolentry}
+        
+
+    \section{Technologies \& Other}
+
+        \begin{onecolentry}
+            \textbf{Concepts \& Tools:} ZX-calculus and variants (ZH, ZW, ZHW, ...), Quantum Computing, Measurement Based Quantum Computing, Quantum Machine Learning
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Languages:} Python, C++, C, Java, SQL, JavaScript, NextJS, Haskell, Erlang
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Software:} Linux, Git, Bash
+        \end{onecolentry}
+
+
+
+    
+
+\end{document}
